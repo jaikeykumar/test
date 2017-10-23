@@ -29,5 +29,25 @@ void copy_string(char d[], char s[]) {
 
 
 
+<parent>
+    <groupId>org.jenkins-ci</groupId>
+    <artifactId>jenkins</artifactId>
+    <version>1.39</version>
+  </parent>
 
-scbkldavm;dnvks 
+  <groupId>org.jenkins-ci.main</groupId>
+  <artifactId>pom</artifactId>
+  <version>2.87-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Jenkins main module</name>
+  <description>The module that constitutes the main jenkins.war</description>
+
+  <licenses>
+    <license>
+      <name>The MIT license</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
