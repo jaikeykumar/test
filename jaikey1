@@ -29,11 +29,6 @@ void copy_string(char d[], char s[]) {
 
 
 
-<parent>
-    <groupId>org.jenkins-ci</groupId>
-    <artifactId>jenkins</artifactId>
-    <version>1.39</version>
-  </parent>
 
   <groupId>org.jenkins-ci.main</groupId>
   <artifactId>pom</artifactId>
