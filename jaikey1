@@ -26,3 +26,8 @@ void copy_string(char d[], char s[]) {
    }
    d[c] = '\0';
 }
+
+
+
+
+scbkldavm;dnvks 
